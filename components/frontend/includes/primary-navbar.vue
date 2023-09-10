@@ -35,7 +35,7 @@
                     <NuxtLink class="menu-link" to="#">Robinhood</NuxtLink>
                   </li>
                   <li class="menu-item" @click="closeSideNav">
-                    <NuxtLink class="menu-link" to="#">Categories</NuxtLink>
+                    <NuxtLink class="menu-link" to="/categories">Categories</NuxtLink>
                   </li>
                   <li class="menu-item" @click="closeSideNav">
                     <NuxtLink class="menu-link" :to="{name: 'find-tasks'}">Find Tasks</NuxtLink>
