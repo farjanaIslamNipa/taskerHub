@@ -113,7 +113,7 @@
                   </div>
                 </div>
                 <div class="text-center pt-4">
-                  <NuxtLink to="#" class="rounded-fill-btn text-capitalize">Read all review</NuxtLink>
+                  <button class="rounded-fill-btn text-capitalize">Read all review</button>
                 </div>
               </div>
             </div>

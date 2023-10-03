@@ -33,6 +33,7 @@
               <NuxtLink to="/list-my-services" class="text-dark py-1 d-block">List Your Services</NuxtLink>
               <NuxtLink to="/listing" class="text-dark py-1 d-block">Listed Services</NuxtLink>
               <NuxtLink to="/my-tasks" class="text-dark py-1 d-block">Listed Tasks</NuxtLink>
+              <NuxtLink to="/listing/listing-view" class="text-dark py-1 d-block">View List</NuxtLink>
             </div>
           </div>
           <div class="col-sm-6 col-md-3">

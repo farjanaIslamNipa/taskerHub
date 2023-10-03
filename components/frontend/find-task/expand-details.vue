@@ -61,7 +61,7 @@
                         </div>
                         <div class="px-3 pb-1"><hr class="m-2 gray-line"></div>
                         <div class="text-center mt-3 mb-4">
-                            <NuxtLink to="#" class="rounded-fill-btn">Make an offer</NuxtLink>
+                            <button class="rounded-fill-btn">Make an offer</button>
                         </div>
                     </div>
                     <div class="task-option-select mt-3">
@@ -84,7 +84,7 @@
                 <div class="text-center">
                     <img class="" src="~/assets/images/frontend/find-task/blank-offer-img.png" alt="">
                     <div class="mt-4">
-                        <NuxtLink to="#" class="rounded-fill-btn">Make an offer</NuxtLink>
+                        <button class="rounded-fill-btn">Make an offer</button>
                     </div>
                 </div>
             </div>

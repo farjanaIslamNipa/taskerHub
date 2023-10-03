@@ -4,7 +4,7 @@
       <div class="container">
         <h1 class="fw-bold"><span class="text-brand">Careers</span> at HiTasks</h1>
         <h5 class="mb-5 text-small">Come join us as we build the world’s no.1 <br> marketplace for local services.</h5>
-        <NuxtLink :to="{name: 'sign-up'}" class="rounded-fill-btn button-small">Come join us!</NuxtLink>
+        <NuxtLink :to="{name: 'sign-up'}" class="rounded-fill-btn button-small relative">Come join us!</NuxtLink>
       </div>
     </div>
     <div class="career-header-img pb-xl-5 pb-0">
@@ -99,7 +99,7 @@
                   </div>
                   <div>
                     <div class="mb-3"><button class="rounded-fill-btn py-1 px-2 text-14" @click="openApplyNowModal">Apply now</button></div>
-                    <div><NuxtLink to="{name: 'careers-details'}" class="rounded-outline-btn py-1 px-2 text-14">Read More</NuxtLink></div>
+                    <div><NuxtLink :to="{name: 'careers-details'}" class="rounded-outline-btn py-1 px-2 text-14">Read More</NuxtLink></div>
                   </div>
                 </div>
               </div>
@@ -112,7 +112,7 @@
                   </div>
                   <div>
                     <div class="mb-3"><button class="rounded-fill-btn py-1 px-2 text-14" @click="openApplyNowModal">Apply now</button></div>
-                    <div><NuxtLink to="{name: 'careers-details'}" class="rounded-outline-btn py-1 px-2 text-14">Read More</NuxtLink></div>
+                    <div><NuxtLink :to="{name: 'careers-details'}" class="rounded-outline-btn py-1 px-2 text-14">Read More</NuxtLink></div>
                   </div>
                 </div>
               </div>
@@ -125,7 +125,7 @@
                   </div>
                   <div>
                     <div class="mb-3"><button class="rounded-fill-btn py-1 px-2 text-14" @click="openApplyNowModal">Apply now</button></div>
-                    <div><NuxtLink to="{name: 'careers-details'}" class="rounded-outline-btn py-1 px-2 text-14">Read More</NuxtLink></div>
+                    <div><NuxtLink :to="{name: 'careers-details'}" class="rounded-outline-btn py-1 px-2 text-14">Read More</NuxtLink></div>
                   </div>
                 </div>
               </div>
@@ -138,7 +138,7 @@
                   </div>
                   <div>
                     <div class="mb-3"><button class="rounded-fill-btn py-1 px-2 text-14" @click="openApplyNowModal">Apply now</button></div>
-                    <div><NuxtLink to="{name: 'careers-details'}" class="rounded-outline-btn py-1 px-2 text-14">Read More</NuxtLink></div>
+                    <div><NuxtLink :to="{name: 'careers-details'}" class="rounded-outline-btn py-1 px-2 text-14">Read More</NuxtLink></div>
                   </div>
                 </div>
               </div>
@@ -151,7 +151,7 @@
                   </div>
                   <div>
                     <div class="mb-3"><button class="rounded-fill-btn py-1 px-2 text-14" @click="openApplyNowModal">Apply now</button></div>
-                    <div><NuxtLink to="{name: 'careers-details'}" class="rounded-outline-btn py-1 px-2 text-14">Read More</NuxtLink></div>
+                    <div><NuxtLink :to="{name: 'careers-details'}" class="rounded-outline-btn py-1 px-2 text-14">Read More</NuxtLink></div>
                   </div>
                 </div>
               </div>

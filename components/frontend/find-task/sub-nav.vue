@@ -119,7 +119,7 @@
 .find-task-sub-nav::-webkit-scrollbar
 {
 	width: 10px;
-    height: 10px;
+    height: 8px;
 	background: none !important;
 }
 
@@ -127,6 +127,6 @@
 {
 	border-radius: 10px;
 	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
-	background-color: #5e2c79;
+	background-color: #8DC63F;
 }
 </style>

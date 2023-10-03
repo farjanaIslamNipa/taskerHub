@@ -36,7 +36,7 @@
         </div>
       </div>
       <div class="text-center mt-3 mb-5">
-        <NuxtLink to="#" class="rounded-fill-btn py-2">Edit your profile</NuxtLink>
+        <button class="rounded-fill-btn py-1">Edit your profile</button>
       </div>
       <div class="text-start">
         <div class="d-flex justify-content-center">
@@ -80,7 +80,7 @@
     <div class="mt-4 border-box py-4 px-2">
       <h6 class="text-uppercase text-brand">BADGES</h6>
       <div class="mt-4 mb-2">
-        <NuxtLink to="#" class="badge-learn-more-btn">Get a badge</NuxtLink>
+        <NuxtLink to="/profile/get-badges" class="badge-learn-more-btn">Get a badge</NuxtLink>
       </div>
     </div>
     <div class="mt-4 border-box py-4 px-2 mb-4">

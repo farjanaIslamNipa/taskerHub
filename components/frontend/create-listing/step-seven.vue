@@ -22,7 +22,7 @@
         <div class="col-md-8 mb-4 mt-4">
             <div class="d-flex justify-content-between">
                 <button class="rounded-outline-btn py-2 mx-2 w-100" @click="goBackward(step)">Back</button>
-                <button class="rounded-fill-btn py-2 mx-2 w-100" @click="goForward(step)">Publish listing</button>
+                <button class="rounded-fill-btn py-2 mx-2 w-100" @click="$router.push('/listing')">Publish listing</button>
             </div>
         </div>
     </div>

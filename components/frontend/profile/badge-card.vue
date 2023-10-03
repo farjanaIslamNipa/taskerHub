@@ -8,7 +8,7 @@
             </div>
         </div>
         <div class="ms-4">
-            <NuxtLink to="#" class=" bg-purple-lighter rounded-pill px-5 py-2"><span class="text-brand fw-bold">Add</span></NuxtLink>
+            <NuxtLink to="#" class=" bg-purple-lighter rounded-pill px-lg-5 px-3 py-2"><span class="text-brand fw-bold">Add</span></NuxtLink>
         </div>
     </div>
 </template>

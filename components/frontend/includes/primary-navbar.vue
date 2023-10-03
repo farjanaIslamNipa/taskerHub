@@ -32,7 +32,7 @@
                     <NuxtLink id="post-task" class="post-a-task-btn" :to="{name:'post-task'}" data-text="Post a Task">Post a Task</NuxtLink>
                   </li>
                   <li class="menu-item d-lg-none d-block" @click="closeSideNav">
-                    <NuxtLink class="menu-link" to="#">Robinhood</NuxtLink>
+                    <NuxtLink class="menu-link" to="/profile">Profile</NuxtLink>
                   </li>
                   <li class="menu-item" @click="closeSideNav">
                     <NuxtLink class="menu-link" to="/categories">Categories</NuxtLink>
@@ -514,6 +514,13 @@ a.nuxt-link-exact-active {
   }
   .post-a-task-btn{
     color: white !important;
+  }
+  .sticky-post-task-btn{
+    border-radius: 0 !important;
+  }
+  .sticky-become-tasker-btn{
+    border-radius: 0 !important;
+    border: none !important;
   }
 }
 

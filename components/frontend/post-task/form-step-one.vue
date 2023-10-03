@@ -41,10 +41,11 @@
             <div class="col-md-3 col-6">
               <div>
                 <label>
-                  <input class="time-selector-checkbox custom-radio-or-check-input" type="checkbox" name="" />
+                  <input v-model="timeSchedule" class="time-selector-checkbox custom-radio-or-check-input" type="radio" name="time-schedule" value="morning" />
                   <div class="time-selector-label custom-radio-or-check-label">
                     <div class="radio-or-check-content text-center">
-                      <img src="~/assets/images/frontend/post-task/morning-icon.svg" alt="">
+                      <img v-if="timeSchedule === 'morning'" src="~/assets/images/frontend/post-task/morning-icon-white.svg" alt="">
+                      <img v-else src="~/assets/images/frontend/post-task/morning-icon.svg" alt="">
                       <h6 class="mb-0">Morning</h6>
                       <p>Before 10 am</p>
                     </div>
@@ -55,10 +56,11 @@
             <div class="col-md-3 col-6">
               <div>
                 <label>
-                  <input class="time-selector-checkbox custom-radio-or-check-input" type="checkbox" name="" />
+                  <input v-model="timeSchedule" class="time-selector-checkbox custom-radio-or-check-input" type="radio" name="time-schedule" value="midday" />
                   <div class="time-selector-label custom-radio-or-check-label">
                     <div class="radio-or-check-content text-center">
-                      <img src="~/assets/images/frontend/post-task/midday-icon.svg" alt="">
+                      <img v-if="timeSchedule === 'midday'" src="~/assets/images/frontend/post-task/midday-icon-white.svg" alt="">
+                      <img v-else src="~/assets/images/frontend/post-task/midday-icon.svg" alt="">
                       <h6 class="mb-0">Midday</h6>
                       <p>10am - 2pm</p>
                     </div>
@@ -69,10 +71,11 @@
             <div class="col-md-3 col-6">
               <div>
                 <label class="me-3">
-                  <input class="time-selector-checkbox custom-radio-or-check-input" type="checkbox" name="" />
+                  <input v-model="timeSchedule" class="time-selector-checkbox custom-radio-or-check-input" type="radio" name="time-schedule" value="afternoon" />
                   <div class="time-selector-label custom-radio-or-check-label">
                     <div class="radio-or-check-content text-center">
-                      <img src="~/assets/images/frontend/post-task/afternoon-icon.svg" alt="">
+                      <img v-if="timeSchedule==='afternoon'" src="~/assets/images/frontend/post-task/afternoon-icon-white.svg" alt="">
+                      <img v-else src="~/assets/images/frontend/post-task/afternoon-icon.svg" alt="">
                       <h6 class="mb-0">Afternoon</h6>
                       <p>2pm - 6px</p>
                     </div>
@@ -83,10 +86,11 @@
             <div class="col-md-3 col-6">
               <div>
                 <label>
-                  <input class="time-selector-checkbox custom-radio-or-check-input" type="checkbox" name="" />
+                  <input v-model="timeSchedule" class="time-selector-checkbox custom-radio-or-check-input" type="radio" name="time-schedule" value="evening" />
                   <div class="time-selector-label custom-radio-or-check-label">
                     <div class="radio-or-check-content text-center">
-                      <img src="~/assets/images/frontend/post-task/evening-icon.svg" alt="">
+                      <img v-if="timeSchedule==='evening'" src="~/assets/images/frontend/post-task/evening-icon-white.svg" alt="">
+                      <img v-else src="~/assets/images/frontend/post-task/evening-icon.svg" alt="">
                       <h6 class="mb-0">Evening</h6>
                       <p>After 6pm</p>
                     </div>
@@ -113,6 +117,7 @@ export default {
       flexible: '',
       onDate: '',
       beforeDate: '',
+      timeSchedule: ''
     }
   },
   methods: {

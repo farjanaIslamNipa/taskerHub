@@ -24,7 +24,7 @@
             <span class="text-warning text-12"><i class="fa-solid fa-star"></i></span>
             <p class="text-gray ps-2 fw-bold mb-0 d-inline-block text-15">4.6 (821)</p>
             <div class="mt-2">
-              <NuxtLink to="#" class="rounded-fill-btn py-1 px-3 text-capitalize text-15">View Profile</NuxtLink>
+              <NuxtLink to="/profile" class="rounded-fill-btn py-1 px-3 text-capitalize text-15">View Profile</NuxtLink>
             </div>
           </div>
         </div>
@@ -50,7 +50,7 @@
       <FrontendIncludesPricePackage />
       <div class="text-center px-2 pb-4">
       <h6 class="fw-bold mb-4">Have a question? Need something specific? <br> Start a conversation with the Tasker.</h6>
-      <NuxtLink to="#" class="rounded-fill-btn">Contact Tasker</NuxtLink>
+      <button class="rounded-fill-btn py-2">Contact Tasker</button>
     </div>
     </div>
     <!-- REVIEW SECTION -->
@@ -63,7 +63,7 @@
           </div>
         </div>
       </div>
-      <div class="text-center pt-4"><NuxtLink to="#" class="rounded-fill-btn text-capitalize">Read all review</NuxtLink></div>
+      <div class="text-center pt-4"><button class="rounded-fill-btn text-capitalize py-2">Read all review</button></div>
     </div>
   </div>
 </div>

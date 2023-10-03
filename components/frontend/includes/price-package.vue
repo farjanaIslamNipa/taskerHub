@@ -27,7 +27,7 @@
             <h2 class="fw-bold mb-0">$240</h2>
           </div>
           <div class="py-4 text-center mt-3">
-            <NuxtLink to="#" class="rounded-fill-btn px-3">Start package</NuxtLink>
+            <button class="rounded-fill-btn px-3 py-2">Start package</button>
             <p class="mb-0 text-15 fw-bold mt-4">you won’t be charged yet</p>
           </div>
         </div>

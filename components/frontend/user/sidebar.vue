@@ -72,7 +72,7 @@
           </div>
         </div>
         <div class="text-center my-5">
-          <NuxtLink to="#" class="rounded-fill-btn py-2">Request a Quote</NuxtLink>
+          <button class="rounded-fill-btn py-1">Request a Quote</button>
         </div>
         <div class="text-start">
           <div class="d-flex justify-content-center">

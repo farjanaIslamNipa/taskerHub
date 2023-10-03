@@ -48,7 +48,7 @@
       </div>
       <!-- <FrontendHomeOthersGettingDoneSection /> -->
       <!-- FEEL SAFE AND SECURE SECTION -->
-      <div class="py-5">
+      <div class="pt-lg-4 pt-0 pb-5">
         <div class="container">
           <h1 class="text-center text-brand py-3">Feel safe and secure on HiTasks</h1>
           <div class="py-xl-5 py-3">
