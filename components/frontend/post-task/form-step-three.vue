@@ -1,6 +1,6 @@
 <template>
 <div>
-  <div v-if="removal === 'yes'" class="task-form bg-white rounded-2 card-shadow mt-5 mb-4">
+  <div class="task-form bg-white rounded-2 card-shadow mt-5 mb-4">
     <h5 class="task-title px-3"><span class="fw-bold text-brand me-2 text-stroke">3</span>Provide more details</h5>
     <div class="px-sm-3 px-0">
       <div>

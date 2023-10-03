@@ -45,7 +45,7 @@
             removalTaskType: '',
           },
         },
-        step:1,
+        step:3,
         isRemoval: '',
         stepBar: [
             {
@@ -72,6 +72,7 @@
           this.step++
           if(event.removalTask !== ''){
             this.isRemoval = event.removalTask
+            console.log(this.isRemoval)
           }
       },
       goBack() {

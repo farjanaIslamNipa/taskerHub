@@ -22,8 +22,7 @@
               </client-only>
             </div>
             <label>
-
-              <input v-model="flexible" class="flexible-checkbox custom-radio-or-check-input" type="radio" value="flexible"  />
+              <input v-model="flexible" class="flexible-checkbox custom-radio-or-check-input" type="radio" value="flexible" checked  />
               <div class="flexible-checkbox-label custom-radio-or-check-label">
                 <div class="radio-or-check-content"><span>I am Flexible</span></div>
               </div>
