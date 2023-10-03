@@ -27,7 +27,7 @@
                 <p class="text-center text-18 px-xl-5 px-0">Creating a community where all members can enjoy a safe and rewarding HiTasks experience requires trust. Being responsible and respectful to others are the building blocks that form our marketplace integrity.</p>
                 <div class="row px-xl-5 px-0 pt-4">
                     <div class="col-md-6 mb-md-0 mb-4">
-                        <div data-aos="fade-left" data-aos-delay="200" data-aos-duration="1000" class="d-flex align-items-center bg-white card-shadow rounded py-4 px-xl-5 px-lg-3 px-2 h-100">
+                        <div data-aos="fade-left" data-aos-delay="200" data-aos-duration="1000" class="d-flex align-items-center bg-white card-shadow rounded py-4 px-xl-5 px-lg-3 px-2 h-100 cursor-pointer" @click="goTo('/community-guidelines/poster-guidelines')">
                             <div><img class="user-img" src="~/assets/images/frontend/community-guideline/posters-icon.svg" alt=""></div>
                             <div class="ms-lg-4 ms-2">
                                 <h4 class="fw-bold mb-1 text-lime">Posters</h4>
@@ -36,7 +36,7 @@
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <div data-aos="fade-right" data-aos-delay="200" data-aos-duration="1000" class="d-flex align-items-center bg-white card-shadow rounded py-4 px-xl-5 px-lg-3 px-2 h-100">
+                        <div data-aos="fade-right" data-aos-delay="200" data-aos-duration="1000" class="d-flex align-items-center bg-white card-shadow rounded py-4 px-xl-5 px-lg-3 px-2 h-100 cursor-pointer" @click="goTo('/community-guidelines/tasker-guidelines')">
                             <div><img class="user-img" src="~/assets/images/frontend/community-guideline/taskers-icon.svg" alt=""></div>
                             <div class="ms-lg-4 ms-2">
                                 <h4 class="fw-bold mb-1 text-brand">Taskers</h4>
@@ -53,8 +53,16 @@
 <script>
     export default {
         name: 'CommunityGuidelines',
-        layout:'frontend/default-layout'
+        layout:'frontend/default-layout',
+
+        methods:{
+            goTo(path){
+                this.$router.push(path)
+            }
+        }
+
     }
+
 </script>
 
 <style scoped>

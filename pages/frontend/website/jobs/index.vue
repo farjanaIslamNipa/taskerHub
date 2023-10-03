@@ -31,7 +31,7 @@
                 <div><span class="d-inline-block bg-white rounded-pill card-shadow job-count">10</span></div>
               </div>
               <div class="d-flex justify-content-between align-items-center">
-                <a href="#admin" class="job-name">Admin</a>
+                <a href="#admin" class="job-name">Book Keeping</a>
                 <div><span class="d-inline-block bg-white rounded-pill card-shadow job-count">8</span></div>
               </div>
               <div class="d-flex justify-content-between align-items-center">
@@ -180,13 +180,13 @@
           <!-- Right Side -->
           <div class="col-lg-9">
             <div>
-              <div id="accounting" class="p-3 bg-white card-shadow rounded-3 mb-4">
-                <NuxtLink to="#" class="text-brand fw-bold job-category-name hover-brand">Accounting</NuxtLink>
+              <NuxtLink id="accounting" to="/job-category" class="p-3 bg-white card-shadow rounded-3 mb-4">
+                <h5 class="text-brand fw-bold job-category-name hover-brand">Book Keeping</h5>
                 <img class="job-img img-fluid" src="~/assets/images/frontend/jobs/accounting.png" alt="">
                 <div class="d-flex flex-wrap align-items-center mt-3">
-                  <NuxtLink to="#" class="bg-purple-lighter rounded-3 px-3 py-2 mx-1 mb-2 text-dark hover-brand"><span>Bookkeeping</span></NuxtLink>
+                  <p class="bg-purple-lighter rounded-3 px-3 py-2 mx-1 mb-2 text-dark hover-brand"><span>Bookkeeping</span></p>
                 </div>
-              </div>
+              </NuxtLink>
               <div id="accounting" class="p-3 bg-white card-shadow rounded-3 mb-4">
                 <NuxtLink to="#" class="text-brand fw-bold job-category-name hover-brand">Accounting</NuxtLink>
                 <img class="job-img img-fluid" src="~/assets/images/frontend/jobs/admin.png" alt="">

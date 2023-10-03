@@ -126,7 +126,7 @@
       </div>
       <FrontendHomeTaskersIncomeOnHitasksSection />
       <FrontendHomeBlogSection />
-      <div class="py-5">
+      <!-- <div class="py-5">
         <div class="container">
           <h1 class="text-brand text-center">Top Categories</h1>
           <p class="text-center text-18">See some of our top categories in your area</p>
@@ -183,7 +183,7 @@
           </div>
         </div>
         </div>
-      </div>
+      </div> -->
     </div>
   </template>
   <script>

@@ -92,14 +92,27 @@
               </div>
               <div class="col-lg-6 col-12 mb-4">
                 <div class="d-sm-flex d-block align-items-center justify-content-sm-between justify-content-start text-gray py-4 px-3 vacancy-card h-100">
-                  <div><h5 class="fw-bold mb-0 text-capitalize text-500">Brand & PR Manager</h5></div>
+                  <div><h5 class="fw-bold mb-0 text-capitalize text-500">Front end engineer</h5></div>
                   <div>
                     <h6 class="mb-2">Deadline</h6>
                     <p class="mb-0">2022-01-25</p>
                   </div>
                   <div>
-                    <div class="mb-3"><NuxtLink to="#" class="rounded-fill-btn py-1 px-2 text-14">Apply now</NuxtLink></div>
-                    <div><NuxtLink to="#" class="rounded-outline-btn py-1 px-2 text-14">Read More</NuxtLink></div>
+                    <div class="mb-3"><button class="rounded-fill-btn py-1 px-2 text-14" @click="openApplyNowModal">Apply now</button></div>
+                    <div><NuxtLink to="{name: 'careers-details'}" class="rounded-outline-btn py-1 px-2 text-14">Read More</NuxtLink></div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-12 mb-4">
+                <div class="d-sm-flex d-block align-items-center justify-content-sm-between justify-content-start text-gray py-4 px-3 vacancy-card h-100">
+                  <div><h5 class="fw-bold mb-0 text-capitalize text-500">Back end engineer</h5></div>
+                  <div>
+                    <h6 class="mb-2">Deadline</h6>
+                    <p class="mb-0">2022-01-25</p>
+                  </div>
+                  <div>
+                    <div class="mb-3"><button class="rounded-fill-btn py-1 px-2 text-14" @click="openApplyNowModal">Apply now</button></div>
+                    <div><NuxtLink to="{name: 'careers-details'}" class="rounded-outline-btn py-1 px-2 text-14">Read More</NuxtLink></div>
                   </div>
                 </div>
               </div>
@@ -111,8 +124,8 @@
                     <p class="mb-0">2022-01-25</p>
                   </div>
                   <div>
-                    <div class="mb-3"><NuxtLink to="#" class="rounded-fill-btn py-1 px-2 text-14">Apply now</NuxtLink></div>
-                    <div><NuxtLink to="#" class="rounded-outline-btn py-1 px-2 text-14">Read More</NuxtLink></div>
+                    <div class="mb-3"><button class="rounded-fill-btn py-1 px-2 text-14" @click="openApplyNowModal">Apply now</button></div>
+                    <div><NuxtLink to="{name: 'careers-details'}" class="rounded-outline-btn py-1 px-2 text-14">Read More</NuxtLink></div>
                   </div>
                 </div>
               </div>
@@ -124,8 +137,8 @@
                     <p class="mb-0">2022-01-25</p>
                   </div>
                   <div>
-                    <div class="mb-3"><NuxtLink to="#" class="rounded-fill-btn py-1 px-2 text-14">Apply now</NuxtLink></div>
-                    <div><NuxtLink to="#" class="rounded-outline-btn py-1 px-2 text-14">Read More</NuxtLink></div>
+                    <div class="mb-3"><button class="rounded-fill-btn py-1 px-2 text-14" @click="openApplyNowModal">Apply now</button></div>
+                    <div><NuxtLink to="{name: 'careers-details'}" class="rounded-outline-btn py-1 px-2 text-14">Read More</NuxtLink></div>
                   </div>
                 </div>
               </div>
@@ -137,21 +150,8 @@
                     <p class="mb-0">2022-01-25</p>
                   </div>
                   <div>
-                    <div class="mb-3"><NuxtLink to="#" class="rounded-fill-btn py-1 px-2 text-14">Apply now</NuxtLink></div>
-                    <div><NuxtLink to="#" class="rounded-outline-btn py-1 px-2 text-14">Read More</NuxtLink></div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-6 col-12 mb-4">
-                <div class="d-sm-flex d-block align-items-center justify-content-sm-between justify-content-start text-gray py-4 px-3 vacancy-card h-100">
-                  <div><h5 class="fw-bold mb-0 text-capitalize text-500">Brand & PR Manager</h5></div>
-                  <div>
-                    <h6 class="mb-2">Deadline</h6>
-                    <p class="mb-0">2022-01-25</p>
-                  </div>
-                  <div>
-                    <div class="mb-3"><NuxtLink to="#" class="rounded-fill-btn py-1 px-2 text-14">Apply now</NuxtLink></div>
-                    <div><NuxtLink to="#" class="rounded-outline-btn py-1 px-2 text-14">Read More</NuxtLink></div>
+                    <div class="mb-3"><button class="rounded-fill-btn py-1 px-2 text-14" @click="openApplyNowModal">Apply now</button></div>
+                    <div><NuxtLink to="{name: 'careers-details'}" class="rounded-outline-btn py-1 px-2 text-14">Read More</NuxtLink></div>
                   </div>
                 </div>
               </div>

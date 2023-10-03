@@ -132,10 +132,10 @@
           <div class="col-md-6">
             <div>
               <h1 class="text-brand fw-bold">On the move?</h1>
-              <p class="text-18 text-small">Download the Airtasker App and get the tasks you need completed with just a tap of the button. You can also browse available tasks and earn money wherever you go!</p>
+              <p class="text-18 text-small">Download the HiTask App and get the tasks you need completed with just a tap of the button. You can also browse available tasks and earn money wherever you go!</p>
               <div class="pt-xxl-3 pt-0">
                 <a href="#" target="_blank"><img class="img-fluid me-2" src="~/assets/images/frontend/earn-money-as-tasker/app-store.svg" alt=""></a>
-                  <a href="#" target="_blank"><img class="img-fluid" src="~/assets/images/frontend/earn-money-as-tasker/google-play.svg" alt=""></a>
+                <a href="#" target="_blank"><img class="img-fluid" src="~/assets/images/frontend/earn-money-as-tasker/google-play.svg" alt=""></a>
               </div>
             </div>
           </div>
